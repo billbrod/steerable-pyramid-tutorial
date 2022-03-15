@@ -1,6 +1,17 @@
 # steerable-pyramid-tutorial
 
-brief introduction to steerable pyramids
+Brief introduction to steerable pyramids. 
+
+Note that this tutorial uses the implementation of the steerable pyramids found
+in [pyrtools](https://github.com/LabForComputationalVision/pyrtools/), which is
+built using numpy. For most uses, however, you probably want the version
+implemented in
+[plenoptic](https://github.com/LabForComputationalVision/plenoptic/), which is
+built using `pytorch` and thus has automatic differentiation (as well as being
+GPU-compliant and thus, faster). The use is slightly different, but the ideas
+covered here should serve you well (you can see [plenoptic's
+tutorial](https://plenoptic.readthedocs.io/en/latest/tutorials/03_Steerable_Pyramid.html)
+for details on how to use its steerable pyramid implementation).
 
 # Requirements
 
